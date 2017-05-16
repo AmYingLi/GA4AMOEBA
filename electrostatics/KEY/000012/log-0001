@@ -1,0 +1,97 @@
+
+     ######################################################################
+   ##########################################################################
+  ###                                                                      ###
+ ###            TINKER  ---  Software Tools for Molecular Design            ###
+ ##                                                                          ##
+ ##                        Version 7.1  February 2015                        ##
+ ##                                                                          ##
+ ##               Copyright (c)  Jay William Ponder  1990-2015               ##
+ ###                           All Rights Reserved                          ###
+  ###                                                                      ###
+   ##########################################################################
+     ######################################################################
+
+
+ Additional Atom Type Parameters :
+
+     Type  Class  Symbol  Description               Atomic    Mass   Valence
+
+      40      1     C                                  0      6.000    12
+      41      2     H                                  0      1.000     1
+      38      3     O                                  0      8.000    15
+      39      4     H                                  0      1.000     1
+
+ Atoms with an Unusual Number of Attached Atoms :
+
+ Type           Atom Name      Atom Type       Expected    Found
+
+ Valence           1-C             40             12         4
+ Valence           5-O             38             15         2
+ Valence           7-C             40             12         4
+ Valence          11-O             38             15         2
+
+ Additional Atomic Multipole Parameters :
+
+     Atom Type     Coordinate Frame Definition        Multipole Moments
+
+        40         38     39      0   Z-then-X    0.17663
+                                                  0.00000  0.00000  0.03583
+                                                 -0.43637
+                                                  0.00000 -0.08377
+                                                  0.00000  0.00000  0.52014
+
+        41         40     38      0   Z-then-X    0.04176
+                                                  0.00000  0.00000 -0.13846
+                                                  0.50583
+                                                  0.00000  0.19379
+                                                 -0.26379  0.00000 -0.69961
+
+        38         39     40      0   Z-then-X   -0.53482
+                                                  0.07373  0.00000  0.18225
+                                                 -0.38004
+                                                  0.00000 -0.00986
+                                                 -0.55682  0.00000  0.38989
+
+        39         38     40      0   Z-then-X    0.23289
+                                                 -0.04596  0.00000  0.00000
+                                                 -0.41080
+                                                  0.00000 -0.15683
+                                                 -0.52835  0.00000  0.56763
+
+ Additional Atomic Dipole Polarizability Parameters :
+
+     Atom Type           Alpha        Damp     Group Atom Types
+
+        40               1.334       0.390          38   41
+        41               0.496       0.390          40
+        38               0.837       0.390          39   40
+        39               0.496       0.390          38
+
+ Electrostatic Potential Grid Points :            7944
+
+ Average Electrostatic Potential over Atoms :
+      (Kcal/mole per unit charge)
+
+   Structure   Atom      Points      Potential        Target        RMS Diff
+
+        1        1           0         0.0000         0.0000         0.0000
+        1        2         556        -3.3270        -2.8474         3.6598
+        1        3         466        13.1709         9.7835         5.1837
+        1        4        1181         7.0611         4.6510         3.8970
+        1        5         457       -13.2241        -7.8675         5.9405
+        1        6        1239         3.8943         7.5042         4.4012
+        1        7           0         0.0000         0.0000         0.0000
+        1        8         782         6.9132         4.3143         4.7919
+        1        9        1217         0.0053        -2.7073         4.4549
+        1       10         721         8.3173         2.0831         7.3642
+        1       11         765       -17.8506       -13.8098         4.4126
+        1       12         560       -14.8329        -8.3115         7.0374
+
+ Electrostatic Potential over all Grid Points :
+
+ Average Magnitude for Potential :              9.4885
+ Average Magnitude for Target :                 6.6629
+ Average Signed Potential Difference :          0.0406
+ Average Unsigned Potential Difference :        3.9019
+ Root Mean Square Potential Difference :        5.0410

@@ -1,0 +1,109 @@
+
+     ######################################################################
+   ##########################################################################
+  ###                                                                      ###
+ ###            TINKER  ---  Software Tools for Molecular Design            ###
+ ##                                                                          ##
+ ##                        Version 7.1  February 2015                        ##
+ ##                                                                          ##
+ ##               Copyright (c)  Jay William Ponder  1990-2015               ##
+ ###                           All Rights Reserved                          ###
+  ###                                                                      ###
+   ##########################################################################
+     ######################################################################
+
+
+ Additional van der Waals Parameters :
+
+     Atom Class          Size      Epsilon     Reduction
+
+        36              3.4374      0.1327       0.000
+        37              2.2832      0.0103       0.900
+        38              3.8004      0.1204       0.000
+        39              2.7326      0.0202       0.950
+
+ Total Potential Energy :                 20.0832 Kcal/mole
+
+ Intermolecular Energy :                 -12.7198 Kcal/mole
+
+ Energy Component Breakdown :           Kcal/mole      Interactions
+
+ Bond Stretching                          10.3892             40
+ Angle Bending                            15.0948             56
+ Stretch-Bend                             -0.0058             32
+ Torsional Angle                           2.3341             24
+ Van der Waals                            -4.5245           1032
+ Atomic Multipoles                        -1.4887           1032
+ Polarization                             -1.7159           1032
+
+     ######################################################################
+   ##########################################################################
+  ###                                                                      ###
+ ###            TINKER  ---  Software Tools for Molecular Design            ###
+ ##                                                                          ##
+ ##                        Version 7.1  February 2015                        ##
+ ##                                                                          ##
+ ##               Copyright (c)  Jay William Ponder  1990-2015               ##
+ ###                           All Rights Reserved                          ###
+  ###                                                                      ###
+   ##########################################################################
+     ######################################################################
+
+
+ Additional van der Waals Parameters :
+
+     Atom Class          Size      Epsilon     Reduction
+
+        36              3.4374      0.1327       0.000
+        37              2.2832      0.0103       0.900
+        38              3.8004      0.1204       0.000
+        39              2.7326      0.0202       0.950
+
+ Total Potential Energy :                  5.0839 Kcal/mole
+
+ Energy Component Breakdown :           Kcal/mole      Interactions
+
+ Bond Stretching                           0.5200              5
+ Angle Bending                             3.1935              7
+ Stretch-Bend                              0.0745              4
+ Torsional Angle                           0.7387              3
+ Van der Waals                            -0.0071              3
+ Atomic Multipoles                         0.5643              3
+ Polarization                              0.0000              3
+
+     ######################################################################
+   ##########################################################################
+  ###                                                                      ###
+ ###            TINKER  ---  Software Tools for Molecular Design            ###
+ ##                                                                          ##
+ ##                        Version 7.1  February 2015                        ##
+ ##                                                                          ##
+ ##               Copyright (c)  Jay William Ponder  1990-2015               ##
+ ###                           All Rights Reserved                          ###
+  ###                                                                      ###
+   ##########################################################################
+     ######################################################################
+
+
+ Additional van der Waals Parameters :
+
+     Atom Class          Size      Epsilon     Reduction
+
+        36              3.4374      0.1327       0.000
+        37              2.2832      0.0103       0.900
+        38              3.8004      0.1204       0.000
+        39              2.7326      0.0202       0.950
+
+ Total Potential Energy :                 11.9862 Kcal/mole
+
+ Intermolecular Energy :                 -25.8695 Kcal/mole
+
+ Energy Component Breakdown :           Kcal/mole      Interactions
+
+ Bond Stretching                          10.9092             45
+ Angle Bending                            18.2883             63
+ Stretch-Bend                              0.0687             36
+ Torsional Angle                           3.0728             27
+ Van der Waals                            -0.3924           1323
+ Atomic Multipoles                       -13.1717           1323
+ Polarization                             -6.7887           1323
