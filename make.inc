@@ -4,7 +4,7 @@
 # LIBS, optional, extra libraries needed
 
 MPIF90 = mpif90
-CC = icc
+CC = gcc
 
 MPIF90_FLAGS = -g -O3
 CC_FLAGS = -g 

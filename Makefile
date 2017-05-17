@@ -7,9 +7,12 @@ default :
 	@echo '  make <OPTIONS>'
 	@echo ' '
 	@echo ' OPTIONS:'
-	@echo ' all'
+	@echo ' a.out : compile the MPI GA program'
+	@echo ' b.out : compile the quick sort program'
 	@echo ' clean'
 .PHONY: all clean
 
-all :
-	cd src && $(MAKE)
+a.out :
+	cd src && $(MAKE) $@
+b.out :
+	cd src && $(MAKE) $@
