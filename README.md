@@ -8,4 +8,22 @@ The first step is to clone the repsoitory locally.
 ```bash
 $ git clone https://github.com/AmYingLi/GA4AMOEBA.git
 ```
+ 
+You can build the program with
 
+```bash
+$ make
+```
+
+It will show up the options for building different programs: vdW or electrostatics parameters
+
+```bash
+$ to install this GA program, type at the shell prompt:
+$  make <OPTIONS>
+$  
+$  OPTIONS:
+$  vdw : compile the program for vdw parameters optimization
+$  clean-vdw
+$  ele : compile the program for electrostatic parameters optimization
+$  clean-ele
+```
