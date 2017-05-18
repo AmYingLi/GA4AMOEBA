@@ -46,5 +46,38 @@ To see the parameters
 $ cat KEY/000001/methanol.key
 ```
 
-
-
+<a id="note"></a>
+## Note
+This is a parallel genetic algorithm program, it requries Message Passing Interface libary pre-built in your system. Here is the link of MPI https://www.mpich.org
+There are couple of variables should be paid attention with when trying to utilizing the program: 
+```bash
+$ vdw/xyz 
+```
+contains the XYZ files acquired from sampling
+```bash
+$ util/IE_kcal
+```
+contains the energy acquired for the sampled XYZ files
+```bash
+$ KEY
+```
+contains the candidated parameters sets
+```bash
+$ run.sh
+```
+two places could be changed according to the amount of computaion afforded
+```bash
+$ cat run.sh
+$ #!/bin/sh
+$ cp files/c0_in.txt c_in.txt
+$ rm files/log
+$ for i in `seq 1 1 **10**`;do
+$    mpirun -n **10**  ./a.out |tee c_out.txt && cp c_out.txt c_in.txt && ./b.out |tee c_out.txt && cp c_out.txt c_in.txt
+$ done  > files/log
+$ k=`awk '{if (NR==2) printf "%06d\n", $13}' c_out.txt`
+$ echo " "
+$ echo "The best parameters set is KEY/$k/methanol.key"
+$ echo " "
+$ rm c_in.txt c_out.txt 
+```
+the first 10 specifies how many generations of the GA program, and the second 10 speicifies how many populations for each generation does the GA have. 
