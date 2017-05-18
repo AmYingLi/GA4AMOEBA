@@ -28,7 +28,7 @@ $ ele : compile the program for electrostatic parameters optimization
 $ clean-ele
 ```
 
-After building, for instance, the vdw program, go to the vdw folder. Running the commant line
+After building, for instance, the vdw program, go to the vdw folder. Running the command line
 
 ```bash
 $ make vdw
