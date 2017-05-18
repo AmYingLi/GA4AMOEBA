@@ -19,11 +19,30 @@ It will show up the options for building different programs: vdW or electrostati
 
 ```bash
 $ to install this GA program, type at the shell prompt:
-$  make <OPTIONS>
-$  
-$  OPTIONS:
-$  vdw : compile the program for vdw parameters optimization
-$  clean-vdw
-$  ele : compile the program for electrostatic parameters optimization
-$  clean-ele
+$ make <OPTIONS>
+$ 
+$ OPTIONS:
+$ vdw : compile the program for vdw parameters optimization
+$ clean-vdw
+$ ele : compile the program for electrostatic parameters optimization
+$ clean-ele
 ```
+
+After building, for instance, the vdw program, go to the vdw folder. Running the commant line
+
+```bash
+$ make vdw
+$ cd vdw
+$ sh run.sh
+```
+The results will show up as 
+
+```bash
+$ The best
+```
+To see the parameters
+
+```bash 
+$ cat KEY/000001/methanol.key
+```
+
