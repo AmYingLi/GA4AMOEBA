@@ -71,7 +71,7 @@ $ vdw/files
 ``` 
 designed to contain the seeds parameters files and results log
 
-Two places could be changed according to the amount of computaion can be afforded
+Two places could be changed according to the amount of computaion can be afforded, the value of **g** specifies how many generations of the GA program, and the value of **p** speicifies how many populations for each generation does the GA have (which should not exceed the number of cores of the computing node/nodes).
 ```bash
 $ cat run.sh
 $ #!/bin/sh
@@ -79,6 +79,5 @@ $ g=2
 $ p=4
 $ ...
 ```
-the value of **g** specifies how many generations of the GA program, and the value of **p** speicifies how many populations for each generation does the GA have (which should not exceed the number of cores of the computing node/nodes). 
 
 The above variables apply to the electrostatic parameters sets too, expect that it has one more variable **ele/pot** contains the point electrostatic potentails for each probing points sorrounding the methanol dimers.
