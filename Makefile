@@ -4,15 +4,20 @@
 
 default :
 	@echo 'to install this GA program, type at the shell prompt:'
-	@echo '  make <OPTIONS>'
+	@echo ' make <OPTIONS>'
 	@echo ' '
 	@echo ' OPTIONS:'
 	@echo ' a.out : compile the MPI GA program'
 	@echo ' b.out : compile the quick sort program'
+	@echo ' all : compile the whole program'
 	@echo ' clean'
-.PHONY: all clean
+.PHONY: all-vdW clean-vdW
 
 a.out :
-	cd src && $(MAKE) $@
+	cd vdW && $(MAKE) $@
 b.out :
-	cd src && $(MAKE) $@
+	cd vdW && $(MAKE) $@
+all-vdW : a.out b.out
+	cd vdW && $(MAKE) $^
+clean-vdW :
+	cd vdW && $(MAKE) $@

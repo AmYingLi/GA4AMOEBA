@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 //#define num_procs  32 // size of your array
-#define pcross 0.5
+#define pcross 0.6
 #define number 17
 
 struct myData {
@@ -38,11 +38,11 @@ int main () {
         for (j = 0 ; j < number; j++) {
             printf("%lf\t", array[i].data[j]);
         }
-        /*printf("%d\n", array[i].my_id);*/
-        rank = (float) (ncross-i-1)/((ncross-1)*ncross/2.0);
-        /*c = (float) (ncross*2*(ncross-1))/(6*(ncross-1)+ncross);
-        rank = (float) exp(-1.0*(i+1)/c);*/
-        printf("%lf\n", rank);
+        printf("%9d\n", array[i].my_id);
+        /*rank = (float) (ncross-i-1)/((ncross-1)*ncross/2.0);
+        c = (float) (ncross*2*(ncross-1))/(6*(ncross-1)+ncross);
+        rank = (float) exp(-1.0*(i+1)/c);
+        printf("%lf\n", rank);*/
     }
     return 0;
 }

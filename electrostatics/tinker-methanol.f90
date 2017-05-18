@@ -23,7 +23,7 @@ integer :: chrom(length)
 double precision, allocatable :: rand(:), x(:)
 integer :: xsite, rand0, rand1
 double precision :: parents(2)
-integer, parameter :: Nconfigs=579
+integer, parameter :: Nconfigs=10
 double precision :: Ftt(Nconfigs), DFTE(Nconfigs)
 character(18) :: fname, efile
 character(11) :: folder
