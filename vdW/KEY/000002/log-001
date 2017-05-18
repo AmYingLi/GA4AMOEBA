@@ -17,14 +17,14 @@
 
      Atom Class          Size      Epsilon     Reduction
 
-        36              3.4039      0.1476       0.000
-        37              2.3510      0.0105       0.900
-        38              3.9173      0.1187       0.000
-        39              2.7482      0.0212       0.950
+        36              3.1511      0.1483       0.000
+        37              2.4648      0.0103       0.900
+        38              3.7573      0.1221       0.000
+        39              2.7362      0.0231       0.940
 
- Total Potential Energy :                 25.1416 Kcal/mole
+ Total Potential Energy :                 25.0372 Kcal/mole
 
- Intermolecular Energy :                 -14.5281 Kcal/mole
+ Intermolecular Energy :                 -14.9122 Kcal/mole
 
  Energy Component Breakdown :           Kcal/mole      Interactions
 
@@ -32,7 +32,7 @@
  Angle Bending                            19.2359             56
  Stretch-Bend                             -0.5017             32
  Torsional Angle                           1.9120             24
- Van der Waals                            -2.4492           1032
+ Van der Waals                            -2.5536           1032
  Atomic Multipoles                        -4.6983           1032
  Polarization                             -2.0068           1032
 
@@ -54,12 +54,12 @@
 
      Atom Class          Size      Epsilon     Reduction
 
-        36              3.4039      0.1476       0.000
-        37              2.3510      0.0105       0.900
-        38              3.9173      0.1187       0.000
-        39              2.7482      0.0212       0.950
+        36              3.1511      0.1483       0.000
+        37              2.4648      0.0103       0.900
+        38              3.7573      0.1221       0.000
+        39              2.7362      0.0231       0.940
 
- Total Potential Energy :                  6.9217 Kcal/mole
+ Total Potential Energy :                  6.9513 Kcal/mole
 
  Energy Component Breakdown :           Kcal/mole      Interactions
 
@@ -67,7 +67,7 @@
  Angle Bending                             4.2653              7
  Stretch-Bend                             -0.0140              4
  Torsional Angle                           0.1816              3
- Van der Waals                             0.0486              3
+ Van der Waals                             0.0782              3
  Atomic Multipoles                         0.5658              3
  Polarization                              0.0000              3
 
@@ -89,14 +89,14 @@
 
      Atom Class          Size      Epsilon     Reduction
 
-        36              3.4039      0.1476       0.000
-        37              2.3510      0.0105       0.900
-        38              3.9173      0.1187       0.000
-        39              2.7482      0.0212       0.950
+        36              3.1511      0.1483       0.000
+        37              2.4648      0.0103       0.900
+        38              3.7573      0.1221       0.000
+        39              2.7362      0.0231       0.940
 
- Total Potential Energy :                 18.6439 Kcal/mole
+ Total Potential Energy :                 17.0710 Kcal/mole
 
- Intermolecular Energy :                 -27.9790 Kcal/mole
+ Intermolecular Energy :                 -29.8612 Kcal/mole
 
  Energy Component Breakdown :           Kcal/mole      Interactions
 
@@ -104,6 +104,6 @@
  Angle Bending                            23.5011             63
  Stretch-Bend                             -0.5157             36
  Torsional Angle                           2.0935             27
- Van der Waals                            -3.6820           1323
+ Van der Waals                            -5.2549           1323
  Atomic Multipoles                       -13.4446           1323
  Polarization                             -4.8327           1323

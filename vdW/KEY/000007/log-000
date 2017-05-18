@@ -12,3 +12,98 @@
    ##########################################################################
      ######################################################################
 
+
+ Additional van der Waals Parameters :
+
+     Atom Class          Size      Epsilon     Reduction
+
+        36              3.4011      0.1481       0.000
+        37              2.4668      0.0103       0.900
+        38              3.7568      0.1222       0.000
+        39              2.7363      0.0222       0.940
+
+ Total Potential Energy :                 20.7403 Kcal/mole
+
+ Intermolecular Energy :                 -12.7304 Kcal/mole
+
+ Energy Component Breakdown :           Kcal/mole      Interactions
+
+ Bond Stretching                          18.2890             40
+ Angle Bending                             9.3387             56
+ Stretch-Bend                              0.2492             32
+ Torsional Angle                           0.9932             24
+ Van der Waals                            -2.8139           1032
+ Atomic Multipoles                        -3.5228           1032
+ Polarization                             -1.7932           1032
+
+     ######################################################################
+   ##########################################################################
+  ###                                                                      ###
+ ###            TINKER  ---  Software Tools for Molecular Design            ###
+ ##                                                                          ##
+ ##                        Version 7.1  February 2015                        ##
+ ##                                                                          ##
+ ##               Copyright (c)  Jay William Ponder  1990-2015               ##
+ ###                           All Rights Reserved                          ###
+  ###                                                                      ###
+   ##########################################################################
+     ######################################################################
+
+
+ Additional van der Waals Parameters :
+
+     Atom Class          Size      Epsilon     Reduction
+
+        36              3.4011      0.1481       0.000
+        37              2.4668      0.0103       0.900
+        38              3.7568      0.1222       0.000
+        39              2.7363      0.0222       0.940
+
+ Total Potential Energy :                  5.9701 Kcal/mole
+
+ Energy Component Breakdown :           Kcal/mole      Interactions
+
+ Bond Stretching                           3.9628              5
+ Angle Bending                             1.2449              7
+ Stretch-Bend                             -0.0437              4
+ Torsional Angle                           0.2336              3
+ Van der Waals                             0.0172              3
+ Atomic Multipoles                         0.5552              3
+ Polarization                              0.0000              3
+
+     ######################################################################
+   ##########################################################################
+  ###                                                                      ###
+ ###            TINKER  ---  Software Tools for Molecular Design            ###
+ ##                                                                          ##
+ ##                        Version 7.1  February 2015                        ##
+ ##                                                                          ##
+ ##               Copyright (c)  Jay William Ponder  1990-2015               ##
+ ###                           All Rights Reserved                          ###
+  ###                                                                      ###
+   ##########################################################################
+     ######################################################################
+
+
+ Additional van der Waals Parameters :
+
+     Atom Class          Size      Epsilon     Reduction
+
+        36              3.4011      0.1481       0.000
+        37              2.4668      0.0103       0.900
+        38              3.7568      0.1222       0.000
+        39              2.7363      0.0222       0.940
+
+ Total Potential Energy :                  7.1923 Kcal/mole
+
+ Intermolecular Energy :                 -32.2643 Kcal/mole
+
+ Energy Component Breakdown :           Kcal/mole      Interactions
+
+ Bond Stretching                          22.2518             45
+ Angle Bending                            10.5836             63
+ Stretch-Bend                              0.2056             36
+ Torsional Angle                           1.2268             27
+ Van der Waals                            -1.1882           1323
+ Atomic Multipoles                       -18.5944           1323
+ Polarization                             -7.2930           1323

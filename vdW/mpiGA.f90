@@ -69,9 +69,9 @@ write (folder, '("KEY/",i6.6,"/")' ) myid
 call system ( "rm -r " // folder)
 
 call system ( "mkdir " // folder )
-call system ( " cp command.sh " // folder )
-call system ( " cp amoeba09.prm " // folder )
-call system ( " cp analyze " // folder )
+call system ( " cp util/command.sh " // folder )
+call system ( " cp util/amoeba09.prm " // folder )
+call system ( " cp util/analyze " // folder )
 
 fname="KEY/XXXXXX/molecules.key"
 write(fname(5:10),'(i6.6)') myid
@@ -83,7 +83,7 @@ write(31, '(a3,6x,i2,4x,2f10.4)') "vdw", 38, x(7), x(8)
 write(31, '(a3,6x,i2,4x,2f10.4,f10.2)') "vdw", 39, x(9), x(10),x(11)
 close(31)
 
-open(27, file="./IE_kcal", form="formatted")
+open(27, file="files/IE_kcal", form="formatted")
 do i =1, Nconfigs
    read(27, *) DFTE(i)
 enddo
