@@ -48,7 +48,7 @@ $ cat KEY/000001/methanol.key
 
 <a id="note"></a>
 ## Note
-This is a parallel genetic algorithm program, it requries Message Passing Interface libary pre-built in your system. Here is the link of MPI https://www.mpich.org. **make.inc** file could be modified according to the different compilers/vendors. 
+This is a parallel genetic algorithm program, it requries Message Passing Interface library pre-built in your system. Here is the link of MPI https://www.mpich.org. **make.inc** file could be modified according to the different compilers/vendors. 
 There are couple of files should be paid attention with when trying to utilizing the program: 
 ```bash
 $ vdw/xyz 
