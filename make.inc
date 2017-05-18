@@ -6,8 +6,8 @@
 MPIF90 = mpif90
 CC = gcc
 
-MPIF90_FLAGS = -g -O3
-CC_FLAGS = -g 
+MPIF90_FLAGS = -O3
+CC_FLAGS = 
 
 # LINKER = 
 # LIBS =

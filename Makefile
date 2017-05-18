@@ -14,10 +14,10 @@ default :
 .PHONY: all-vdW clean-vdW
 
 a.out :
-	cd vdW && $(MAKE) $@
+	cd vdW/src && $(MAKE) $@
 b.out :
-	cd vdW && $(MAKE) $@
+	cd vdW/src && $(MAKE) $@
 all-vdW : a.out b.out
-	cd vdW && $(MAKE) $^
+	cd vdW/src && $(MAKE) $^
 clean-vdW :
-	cd vdW && $(MAKE) $@
+	cd vdW/src && $(MAKE) $@
