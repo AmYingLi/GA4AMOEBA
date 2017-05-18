@@ -48,36 +48,37 @@ $ cat KEY/000001/methanol.key
 
 <a id="note"></a>
 ## Note
-This is a parallel genetic algorithm program, it requries Message Passing Interface libary pre-built in your system. Here is the link of MPI https://www.mpich.org
+This is a parallel genetic algorithm program, it requries Message Passing Interface libary pre-built in your system. Here is the link of MPI https://www.mpich.org. **make.inc** file could be modified according to the different compilers/vendors. 
 There are couple of variables should be paid attention with when trying to utilizing the program: 
 ```bash
 $ vdw/xyz 
 ```
 contains the XYZ files acquired from sampling
 ```bash
-$ util/IE_kcal
+$ vdw/util/IE_kcal
 ```
-contains the energy acquired for the sampled XYZ files
+contains the energy acquired for the sampled XYZ files accordingly
 ```bash
-$ KEY
+$ vdw/KEY
 ```
 contains the candidated parameters sets
 ```bash
-$ run.sh
+$ vdw/util/
 ```
-two places could be changed according to the amount of computaion afforded
+contains the Tinker programs for calculating the according energy from AMOEBA
+```bash
+$ vdw/files 
+``` 
+designed to contain the seeds parameters files and results log
+
+Two places could be changed according to the amount of computaion afforded
 ```bash
 $ cat run.sh
 $ #!/bin/sh
-$ cp files/c0_in.txt c_in.txt
-$ rm files/log
-$ for i in `seq 1 1 **10**`;do
-$    mpirun -n **10**  ./a.out |tee c_out.txt && cp c_out.txt c_in.txt && ./b.out |tee c_out.txt && cp c_out.txt c_in.txt
-$ done  > files/log
-$ k=`awk '{if (NR==2) printf "%06d\n", $13}' c_out.txt`
-$ echo " "
-$ echo "The best parameters set is KEY/$k/methanol.key"
-$ echo " "
-$ rm c_in.txt c_out.txt 
+$ g=2
+$ p=4
+$ ...
 ```
-the first 10 specifies how many generations of the GA program, and the second 10 speicifies how many populations for each generation does the GA have. 
+the value of g specifies how many generations of the GA program, and the value of p speicifies how many populations for each generation does the GA have (which should not exceed the number of cores of the computing node/nodes). 
+
+The above variables apply to the electrostatic parameters sets too, expect that it has one more variable **pot** contains the point electrostatic potentails for each probing points sorrounding the methanol dimers.
