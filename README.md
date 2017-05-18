@@ -40,7 +40,7 @@ The results will show up as
 ```bash
 $ The best parameters set is KEY/000001/methanol.key
 ```
-To see the parameters
+To see the result of the optimized parameters
 
 ```bash 
 $ cat KEY/000001/methanol.key
