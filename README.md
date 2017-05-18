@@ -49,6 +49,8 @@ $ cat KEY/000001/methanol.key
 <a id="note"></a>
 ## Note
 This is a parallel genetic algorithm program, it requries Message Passing Interface library pre-built in your system. Here is the link of MPI https://www.mpich.org. **make.inc** file could be modified according to the different compilers/vendors. 
+
+Below, the files/folders apply to the electrostatic parameters sets too, expect that it has one more folder **ele/pot** contains the point electrostatic potentails for each probing points sorrounding the methanol dimers.
 There are couple of files should be paid attention with when trying to utilizing the program: 
 ```bash
 $ vdw/xyz 
@@ -71,7 +73,7 @@ $ vdw/files
 ``` 
 designed to contain the seeds parameters files and results log
 
-Two places could be changed according to the amount of computaion can be afforded, the value of **g** specifies how many generations of the GA program, and the value of **p** speicifies how many populations for each generation does the GA have (which should not exceed the number of cores of the computing node/nodes).
+Two places could be changed according to the amount of computaion can be afforded: the value of **g** specifies how many generations of the GA program, and the value of **p** speicifies how many populations for each generation does the GA have (which should not exceed the number of cores of the computing node/nodes).
 ```bash
 $ cat run.sh
 $ #!/bin/sh
@@ -79,5 +81,3 @@ $ g=2
 $ p=4
 $ ...
 ```
-
-The above files/folders apply to the electrostatic parameters sets too, expect that it has one more folder **ele/pot** contains the point electrostatic potentails for each probing points sorrounding the methanol dimers.
