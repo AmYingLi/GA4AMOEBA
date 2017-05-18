@@ -7,17 +7,25 @@ default :
 	@echo ' make <OPTIONS>'
 	@echo ' '
 	@echo ' OPTIONS:'
-	@echo ' a.out : compile the MPI GA program'
-	@echo ' b.out : compile the quick sort program'
-	@echo ' all : compile the whole program'
-	@echo ' clean'
-.PHONY: all-vdW clean-vdW
+	@echo ' vdw : compile the program for vdw parameters optimization'
+	@echo ' clean-vdw'
+	@echo ' ele : compile the program for electrostatic parameters optimization'
+	@echo ' clean-ele'
+.PHONY: vdw clean-vdw ele clean-ele
 
 a.out :
-	cd vdW/src && $(MAKE) $@
+	cd vdw/src && $(MAKE) $@
 b.out :
-	cd vdW/src && $(MAKE) $@
-all-vdW : a.out b.out
-	cd vdW/src && $(MAKE) $^
-clean-vdW :
-	cd vdW/src && $(MAKE) $@
+	cd vdw/src && $(MAKE) $@
+vdw : a.out b.out
+	cd vdw/src && $(MAKE) $^
+clean-vdw :
+	cd vdw/src && $(MAKE) $@
+a_e.out :
+	cd ele/src && $(MAKE) $@
+b_e.out :
+	cd ele/src && $(MAKE) $@
+ele : a_e.out b_e.out
+	cd ele/src && $(MAKE) $^
+clean-ele :
+	cd ele/src && $(MAKE) $@

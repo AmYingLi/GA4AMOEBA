@@ -1,4 +1,4 @@
-include ../make.inc
+include ../../make.inc
 
 # suffix rules
 SRCS1 = mpiGA.f90
@@ -18,10 +18,12 @@ EXE2 = b.out
 
 $(EXE1): $(OBJS1)
 	$(MPIF90) -o $@ $^ $(MPIF90_FLAGS)
+	mv $(EXE1) ../
 
 
 $(EXE2): $(OBJS2)
 	$(CC) -o $@ $^ $(CC_FLAGS) 
+	mv $(EXE2) ../
 
-clean:
-	rm -f $(OBJS1) $(EXE1) $(OBJS2) $(EXE2)
+clean-vdw:
+	rm -f $(OBJS1) ../$(EXE1) $(OBJS2) ../$(EXE2)
