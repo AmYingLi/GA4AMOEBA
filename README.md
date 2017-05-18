@@ -38,11 +38,13 @@ $ sh run.sh
 The results will show up as 
 
 ```bash
-$ The best
+$ The best parameters set is KEY/000001/methanol.key
 ```
 To see the parameters
 
 ```bash 
 $ cat KEY/000001/methanol.key
 ```
+
+
 
