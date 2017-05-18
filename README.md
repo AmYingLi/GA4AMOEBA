@@ -71,7 +71,7 @@ $ vdw/files
 ``` 
 designed to contain the seeds parameters files and results log
 
-Two places could be changed according to the amount of computaion afforded
+Two places could be changed according to the amount of computaion can be afforded
 ```bash
 $ cat run.sh
 $ #!/bin/sh
