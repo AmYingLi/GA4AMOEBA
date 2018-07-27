@@ -1,5 +1,5 @@
 # GA4AMOEBA
-This is a Machine Leaning (ML) Genetic Algorithm GA) program for optimizing the parameters of a polarizable force field based on the  AMOEBA functional form (http://pubs.acs.org/doi/abs/10.1021/ct4003702).  It is a MPI program that can be executed on high performance computers. Please contact yingli@anl.gov or roux@uchicago.edu, if you have any question regarding the code.
+This is a Machine Learning (ML) Genetic Algorithm (GA) program for optimizing the parameters of a polarizable force field based on the  AMOEBA functional form (http://pubs.acs.org/doi/abs/10.1021/ct4003702).  It is a MPI program that can be executed on high performance computers. Please contact yingli@anl.gov or roux@uchicago.edu, if you have any question regarding the code.
 If you ever want to use the code or any resources related to this code, please cite this paper: http://pubs.acs.org/doi/abs/10.1021/acs.jctc.7b00521 and our github repository. Thank you
 
 <a id="installation"></a>
